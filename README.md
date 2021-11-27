@@ -5,4 +5,4 @@ This code can be used to evaluate the performance of transformer encoder archite
 Click on this link to view the change in model's performance (in terms of RMSE value) owing to a change in the model's hyperparameters (https://github.com/JayaswalVivek/Transformer_Encoder/wiki/Model-Evaluation)
 
 References
-1. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. In Advances in neural information processing systems (pp. 5998-6008)
+1. Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. "Attention is all you need." In Advances in neural information processing systems, pp. 5998-6008. 2017.
