@@ -1,7 +1,7 @@
 Implementation of a Transformer-Encoder model for Kaggle's "CommonLit Readability Prize" challenge. The source data sets can be downloaded from Kaggle's website. The code requires GloVe embeddings and these can be downloaded from https://nlp.stanford.edu/projects/glove/
 
 This code can be used to evaluate the performance of a transformer-encoder (Vaswani et al., 2017) on a reading comprehension task. Specifically, the code can be used to evaluate the change in RMSE owing to a change in the -- 
-1. number of input dimensions;
+1. number of input dimensions for the attention layer;
 2. number of dimensions in the feed-forward network; or
 3. number of encoder layers.
 
