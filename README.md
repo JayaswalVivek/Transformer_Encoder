@@ -1,6 +1,6 @@
 ## PyTorch Implementation of an Encoder-only Transformer
 
-This code implements a Transformer-Encoder model (for a detailed description of an attention-based encoder-decoder architecture refer refer Vaswani et al., 2017) for Kaggle's "CommonLit Readability Prize" challenge. The source data sets can be downloaded from Kaggle's website. 
+This code implements a Transformer-Encoder model (for a detailed description of an attention-based encoder-decoder architecture refer Vaswani et al., 2017) for Kaggle's "CommonLit Readability Prize" challenge. The source data sets can be downloaded from Kaggle's website. 
 
 This code requires GloVe embeddings which can be downloaded from https://nlp.stanford.edu/projects/glove/. Further, the code can be used to explore the change in RMSE owing to a change in the -- 
 1. number of input dimensions in an attention layer;
