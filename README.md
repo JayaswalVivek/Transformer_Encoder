@@ -5,7 +5,7 @@ This code implements a Transformer-Encoder model (for a detailed description of 
 2. it does not make use of masking during the training process; and
 3. it makes the use of position-based encoding optional.
 
-Consequently, the current implementation aims to faciliate an understanding of the encoder-based architecture for predictive modelling. It can be used to explore the change in RMSE owing to an inclusion/exclusion of position-based encoding and a change in the -- 
+Consequently, the current implementation aims to facilitate an understanding of the encoder-based architecture for predictive modelling. It can be used to explore the change in RMSE owing to an inclusion/exclusion of position-based encoding and a change in the -- 
 1. number of input dimensions in an attention layer;
 2. number of attention heads;
 3. number of dimensions in the feedforward network; or
