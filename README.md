@@ -1,6 +1,6 @@
 ## PyTorch Implementation of an Encoder-only Transformer
 
-This code implements a Transformer-Encoder model (for a detailed description of an encoder-decoder transformer architecture refer Vaswani et al., 2017) for Kaggle's "CommonLit Readability Prize" challenge and the source data sets can be downloaded from Kaggle's website. While BERT (Devlin et al., 2018) is also a Transformer-Encoder model, this implementation is not the same as fine-tuning BERT because of the following reasons - 
+This code implements a Transformer-Encoder model (for a detailed description of an encoder-decoder transformer architecture refer Vaswani et al., 2017) for Kaggle's "CommonLit Readability Prize" challenge and the source data sets can be downloaded from Kaggle's website. While BERT (Devlin et al., 2018) is also a Transformer-Encoder model, this implementation is not the same as fine-tuning BERT because of the following reasons -- 
 1. it does not estimate the token embeddings and instead uses GloVe embeddings (https://nlp.stanford.edu/projects/glove/)
 2. it does not use attention masking
 
