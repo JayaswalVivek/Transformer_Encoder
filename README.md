@@ -2,7 +2,11 @@
 
 This code implements a Transformer-Encoder model (for a detailed description of an attention-based encoder-decoder architecture refer Vaswani et al., 2017) for Kaggle's "CommonLit Readability Prize" challenge. The source data sets can be downloaded from Kaggle's website. 
 
-This code requires GloVe embeddings which can be downloaded from https://nlp.stanford.edu/projects/glove/. Further, the code can be used to explore the change in RMSE owing to a change in the -- 
+This implementation is not the same as fine-tuning BERT because of the following reasons - 
+1. it does not estimate the token embeddings and instead uses GloVe embeddings (https://nlp.stanford.edu/projects/glove/)
+2. it does not use attention masking
+
+Consequently, this implementation aims to faciliate an understanding of the encoder-based architecture for predictive modelling rather than provide a fine-tuning based applicatin of BERT. Further, the code can be used to explore the change in RMSE owing to a change in the -- 
 1. number of input dimensions in an attention layer;
 2. number of dimensions in the feed-forward network; or
 3. number of encoder layers.
