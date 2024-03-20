@@ -1,4 +1,4 @@
-<h3> Encoder-only Transformer for performing a reading comprehension task. </h3>
+<h3> Encoder-only Transformer for performing a NLP task. </h3>
 <b> Data Source: Kaggle </b> </br>
 <b> URL: https://www.kaggle.com/competitions/commonlitreadabilityprize</b> </br>
 <b> Problem Definition: Rate the complexity of literary passages for grades 3-12 classroom use </b> </br>
