@@ -1,4 +1,6 @@
-## PyTorch Implementation of an Encoder-only Transformer
+<h3> PyTorch Implementation of an Encoder-only Transformer </h3>
+<b> Data Source: Kaggle </b> </br>
+<b> URL: https://www.kaggle.com/competitions/commonlitreadabilityprize </b> </br> </br>
 
 This code implements a Transformer-Encoder model for Kaggle's "CommonLit Readability Prize" challenge and the source data sets can be downloaded from Kaggle's website. While BERT (Devlin et al., 2018) is also a Transformer-Encoder model, this implementation is not another example of BERT pre-training or fine-tuning because --
 1. it does not estimate the token embeddings and instead uses GloVe embeddings (https://nlp.stanford.edu/projects/glove/);
