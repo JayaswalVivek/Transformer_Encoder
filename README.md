@@ -2,7 +2,7 @@
 <b> Data Source: Kaggle </b> </br>
 <b> URL: https://www.kaggle.com/competitions/commonlitreadabilityprize</b> </br>
 <b> Problem Definition: Rate the complexity of literary passages for grades 3-12 classroom use </b> </br>
-<b> Problem Type: Regression </b> </br> </br>
+<b> Problem Type: Regression using unstructured data </b> </br> </br>
 
 This code implements a Transformer-Encoder model for Kaggle's "CommonLit Readability Prize" challenge and the source data sets can be downloaded from Kaggle's website. While BERT (Devlin et al., 2018) is also a Transformer-Encoder model, this implementation is not another example of BERT pre-training or fine-tuning because --
 1. it does not estimate the token embeddings and instead uses GloVe embeddings (https://nlp.stanford.edu/projects/glove/);
